@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yanfei Zhou",
-    "label": "Ph.D. Student in Data Sciences and Operations",
+    "label": "Ph.D. Candidate in Data Sciences and Operations",
     "image": "",
     "email": "yanfei.zhou@marshall.usc.edu",
     "phone": "",
     "url": "https://yanfeifionazhou.github.io",
-    "summary": "Ph.D. student in Data Sciences and Operations at USC Marshall School of Business, researching Conformal Inference and Deep Learning",
+    "summary": "Ph.D. candidate in Data Sciences and Operations (Statistics)at USC Marshall School of Business, researching Conformal Inference and Deep Learning",
     "location": {
       "address": "",
       "postalCode": "",
@@ -44,7 +44,7 @@
       "institution": "University of Southern California, Marshall School of Business",
       "location": "Los Angeles, CA",
       "url": "https://www.marshall.usc.edu/",
-      "area": "Data Sciences and Operations",
+      "area": "Data Sciences and Operations (Statistics)",
       "studyType": "Ph.D. in Statistics",
       "startDate": "2021-08-01",
       "endDate": "",
