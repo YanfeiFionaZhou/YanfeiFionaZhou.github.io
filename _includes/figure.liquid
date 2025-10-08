@@ -69,6 +69,9 @@
       {% if include.zoomable %}
         data-zoomable
         data-zoom-src="{{ include.path | relative_url }}"
+  {% if include.zoom_caption %}
+  data-zoom-caption="{{ include.zoom_caption | escape }}"
+  {% endif %}
       {% endif %}
       {% if include.loading %}
         loading="{{ include.loading }}"
