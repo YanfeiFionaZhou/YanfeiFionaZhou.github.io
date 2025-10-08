@@ -299,11 +299,18 @@
         >
       {% endif %}
       {% if entry.poster %}
-        {% if entry.poster contains '://' %}
-          <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
-        {% else %}
-          <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
-        {% endif %}
+        {% assign poster_href = entry.poster %}
+        {% unless entry.poster contains '://' %}
+          {% assign poster_href = entry.poster | prepend: '/assets/pdf/' | relative_url %}
+        {% endunless %}
+        <a href="{{ poster_href }}" class="publication-link poster-link" style="margin-right: 0.5rem; text-decoration: none;"
+          ><img
+            src="{{ '/assets/img/poster.svg' | relative_url }}"
+            alt="Poster"
+            style="width: 16px; height: 16px; margin-right: 4px; vertical-align: text-top; margin-top: 1px;"
+          >
+          Poster</a
+        >
       {% endif %}
       {% if entry.slides %}
         {% if entry.slides contains '://' %}

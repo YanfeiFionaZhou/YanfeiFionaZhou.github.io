@@ -29,6 +29,24 @@
   },
   "work": [
     {
+      "name": "Microsoft",
+      "position": "Data Scientist Summer Intern",
+      "url": "",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "",
+      "highlights": ["Machine Learning", "Large Language Models", "Statistical Analysis"]
+    },
+    {
+      "name": "Amazon Web Services (AWS",
+      "position": "Applied Scientist Summer Intern",
+      "url": "",
+      "startDate": "2024-05",
+      "endDate": "2024-08",
+      "summary": "",
+      "highlights": ["Machine Learning", "Large Language Models", "Statistical Analysis"]
+    },
+    {
       "name": "CNA Insurance",
       "position": "Data Scientist",
       "url": "",
