@@ -5,7 +5,9 @@
   year={2024},
   selected={true},
   abbr={NeurIPS},
-  url={https://arxiv.org/abs/2405.15106},
+  url={https://neurips.cc/virtual/2024/poster/96713},
+  poster={https://neurips.cc/media/PosterPDFs/NeurIPS%202024/96713.png?t=1731101453.4247527},
+  code={https://github.com/FionaZ3696/Adaptively-Fair-Conformal-Prediction},
   abstract={This paper introduces a conformal inference method to evaluate uncertainty in classification by generating prediction sets with valid coverage conditional on adaptively chosen features. These features are carefully selected to reflect potential model limitations or biases. This can be useful to find a practical compromise between efficiency---by providing informative predictions---and algorithmic fairness---by ensuring equalized coverage for the most sensitive groups. We demonstrate the validity and effectiveness of this method on simulated and real data sets.}
 }
 
@@ -17,8 +19,12 @@
   selected={true},
   abbr={ICML},
   arxiv={2402.09623},
-  url={https://arxiv.org/abs/2402.09623},
-  abstract={This paper presents a new conformal method for generating simultaneous forecasting bands guaranteed to cover the entire path of a new random trajectory with sufficiently high probability. Prompted by the need for dependable uncertainty estimates in motion planning applications where the behavior of diverse objects may be more or less unpredictable, we blend different techniques from online conformal prediction of single and multiple time series, as well as ideas for addressing heteroscedasticity in regression. This solution is both principled, providing precise finite-sample guarantees, and effective, often leading to more informative predictions than prior methods.}
+  url={https://icml.cc/virtual/2024/poster/33115},
+  poster={https://icml.cc/media/PosterPDFs/ICML%202024/33115.png?t=1720764633.3923903},
+  code={https://github.com/FionaZ3696/CAFHT},
+  abstract={This paper presents a new conformal method for generating simultaneous forecasting bands guaranteed to cover the entire path of a new random trajectory with sufficiently high probability. Prompted by the need for dependable uncertainty estimates in motion planning applications where the behavior of diverse objects may be more or less unpredictable, we blend different techniques from online conformal prediction of single and multiple time series, as well as ideas for addressing heteroscedasticity in regression. This solution is both principled, providing precise finite-sample guarantees, and effective, often leading to more informative predictions than prior methods.},
+  preview={cafht.png},
+  img={publication_preview/cafht.png}
 }
 
 @inproceedings{liang2023conformal,
@@ -30,7 +36,9 @@
   publisher={PMLR},
   selected={true},
   abbr={ICML},
-  url={https://proceedings.mlr.press/v202/liang23i.html},
+  url={https://icml.cc/virtual/2023/poster/24975},
+  poster={https://icml.cc/media/PosterPDFs/ICML%202023/24975.png?t=1687588201.2805715},
+  code={https://github.com/ZiyiLiang/Conformalized_early_stopping},
   abstract={Early stopping based on hold-out data is a popular regularization technique designed to mitigate overfitting and increase the predictive accuracy of neural networks. Models trained with early stopping often provide relatively accurate predictions, but they generally still lack precise statistical guarantees unless they are further calibrated using independent hold-out data. This paper addresses the above limitation with conformalized early stopping: a novel method that combines early stopping with conformal calibration while efficiently recycling the same hold-out data. This leads to models that are both accurate and able to provide exact predictive inferences without multiple data splits nor overly conservative adjustments. Practical implementations are developed for different learning tasks—outlier detection, multi-class classification, regression—and their competitive performance is demonstrated on real data.}
 }
 
@@ -43,6 +51,10 @@
   year={2022},
   selected={true},
   abbr={NeurIPS},
-  url={https://arxiv.org/abs/2205.05878},
-  abstract={Deep neural networks are powerful tools to detect hidden patterns in data and leverage them to make predictions, but they are not designed to understand uncertainty and estimate reliable probabilities. In particular, they tend to be overconfident. We begin to address this problem in the context of multi-class classification by developing a novel training algorithm producing models with more dependable uncertainty estimates, without sacrificing predictive power. The idea is to mitigate overconfidence by minimizing a loss function, inspired by advances in conformal inference, that quantifies model uncertainty by carefully leveraging hold-out data. Experiments with synthetic and real data demonstrate this method can lead to smaller conformal prediction sets with higher conditional coverage, after exact calibration with hold-out data, compared to state-of-the-art alternatives.}
+  url={https://nips.cc/virtual/2022/poster/54954},
+  poster={https://nips.cc/media/PosterPDFs/NeurIPS%202022/9407c826d8e3c07ad37cb2d13d1cb641.png?t=1667239153.6862524},
+  code={https://github.com/bat-sheva/Conformal-Learning},
+  abstract={Deep neural networks are powerful tools to detect hidden patterns in data and leverage them to make predictions, but they are not designed to understand uncertainty and estimate reliable probabilities. In particular, they tend to be overconfident. We begin to address this problem in the context of multi-class classification by developing a novel training algorithm producing models with more dependable uncertainty estimates, without sacrificing predictive power. The idea is to mitigate overconfidence by minimizing a loss function, inspired by advances in conformal inference, that quantifies model uncertainty by carefully leveraging hold-out data. Experiments with synthetic and real data demonstrate this method can lead to smaller conformal prediction sets with higher conditional coverage, after exact calibration with hold-out data, compared to state-of-the-art alternatives.},
+  preview={neurips22.png},
+  img={publication_preview/neurips22.png}
 }
