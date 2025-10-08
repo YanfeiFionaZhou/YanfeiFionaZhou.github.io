@@ -6,7 +6,7 @@ This document summarizes all changes made to convert the website from Deqing Fu'
 
 ### 1. Configuration (_config.yml)
 - **Name**: Changed from "Deqing Fu" to "Yanfei Zhou"
-- **Email**: Changed from "deqingfu@usc.edu" to "yanfei.zhou@marshall.usc.edu"
+- **Email**: Changed from "deqingfu@usc.edu" to "yanfeizh@usc.edu"
 - **URL**: Changed from "https://deqingfu.github.io" to "https://yanfeifionazhou.github.io"
 - **Description**: Updated to reflect Yanfei's position in DSO at USC Marshall
 - **Keywords**: Changed from "nlp, transformers, in-context-learning, multimodal-learning" to "conformal-inference, uncertainty-quantification, statistics"

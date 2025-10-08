@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <div style="text-align: center;">
-      <p>yanfei.zhou@marshall.usc.edu</p>
+      <p>yanfeizh@usc.edu</p>
       <p style="font-size: 1.5em; display: flex; gap: 20px; justify-content: center; align-items: center;">
       <a href="/assets/pdf/curriculum_vitae_yanfei.pdf" target="_blank" title="CV" style="margin-left: -10px; margin-right: -8px; margin-top: 1px; font-size: 1.1em;">CV</a>
       <a href="https://scholar.google.com/citations?user=YJ5oVF4AAAAJ&hl=en" target="_blank" title="Google Scholar" style="margin-left: -10px; margin-right: -8px;"><img src="/assets/img/Google_Scholar_logo.svg" alt="Google Scholar" style="width: 28px; height: 28px; vertical-align: text-bottom; margin-top: -2px;"></a>
