@@ -1,0 +1,47 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yanfei Zhou
+    - name: Languages
+      value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Data Sciences and Operations
+      institution: University of Southern California, Marshall School of Business
+      year: 2021 - Present
+      description:
+        - Advisor: Prof. Matteo Sesia
+        - Focus: Conformal Inference and Deep Learning
+    - title: M.S. in Statistics
+      institution: University of Chicago
+      year: 2020
+    - title: B.S. in Statistics with Finance
+      institution: London School of Economics (LSE)
+      year: 2019
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Data Scientist
+      institution: CNA Insurance
+      year: 2020 - 2021
+      description:
+        - Developed machine learning models for risk assessment and pricing optimization
+        - Conducted statistical analysis on insurance claims data
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Uncertainty Quantification
+      items:
+        - Conformal Inference
+        - Predictive Uncertainty Estimation
+    - title: Machine Learning
+      items:
+        - Deep Learning
+        - Causal Machine Learning
+        - Online Learning
+

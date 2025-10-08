@@ -1,0 +1,10 @@
+# Yanfei Zhou - CV Placeholder
+
+This is a placeholder file. Please replace this with your actual CV PDF.
+
+To add your CV:
+1. Save your CV as a PDF file
+2. Name it "curriculum_vitae_yanfei.pdf"
+3. Place it in the /assets/pdf/ directory, replacing this file
+
+Your CV will then be accessible via the link on your homepage.
