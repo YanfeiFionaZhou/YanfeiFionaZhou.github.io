@@ -63,10 +63,21 @@
               </div>
             </div>
           {% else %}
+            {%- assign zoom_path = nil -%}
+            {%- if entry.img -%}
+              {%- if entry.img contains '://' -%}
+                {%- assign zoom_path = entry.img -%}
+              {%- else -%}
+                {%- assign zoom_path = entry.img | prepend: '/assets/img/' -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- assign zoom_path = entry_path -%}
+            {%- endif -%}
             {%
               include figure.liquid
               loading="eager"
-              path=entry_path
+              path=zoom_path
+              url=entry_path
               sizes = "120px"
               class="preview z-depth-1 rounded"
               zoomable=true
