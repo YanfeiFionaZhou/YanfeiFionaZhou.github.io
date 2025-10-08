@@ -27,6 +27,6 @@ I am **Yanfei Zhou** (周砚菲), a final-year Ph.D. Candidate in Statistics at 
 
 Before joining USC Marshall, I completed my Master's degree in Statistics at the University of Chicago and my Bachelor's degree in Statistics with Finance at the London School of Economics (LSE). 
 
-My current research focuses on **Uncertainty Quantification (UQ)** for machine learning and deep learning model predictions. Specifically, I calibrate models using a conformal inference framework to estimate predictive uncertainty. I am interested in exploring topics including online learning, causal machine learning, natural language processing, and reinforcement learning.
+My current research focuses on **Uncertainty Quantification (UQ)** for machine learning and deep learning model predictions. Specifically, we approach this via conformal prediction, a framework that converts point predictions into reliable and informative prediction sets or intervals. Centered on conformal prediction, our research develops new methods that improve the model training process and address various issues such as fairness and data privacy. These methods can be applied to a variety of application domains such as robot motion planning, financial stock forecasting, or image recognitions. Additionally, I have begun working on large language models, focusing on uncertainty-aware model evaluation."
 
 You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=YJ5oVF4AAAAJ&hl=en).
