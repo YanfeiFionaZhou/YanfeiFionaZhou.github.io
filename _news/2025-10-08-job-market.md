@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<span style="color: red;">I am on the industry job market looking for Research Scientist, Applied Scientist, or Data Scientist positions starting in 2026!</span>
+<strong style="color: #dc3545 !important;">I am on the industry job market looking for Research Scientist, Applied Scientist, or Data Scientist positions starting in 2026!</strong>
