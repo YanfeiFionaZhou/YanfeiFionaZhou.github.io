@@ -23,7 +23,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-I am **Yanfei Zhou** (周砚菲), a final-year Ph.D. candidate in the <span style="color:#990000;">**Department of Data Sciences and Operations (DSO)**</span> at the **University of Southern California (USC)**, Marshall School of Business. At USC, I am working with Professor [Matteo Sesia](https://msesia.github.io/) on **Conformal Inference** and **Deep Learning**.
+I am **Yanfei Zhou** (周砚菲), a final-year Ph.D. Candidate in Statistics at the <span style="color:#990000;">**Department of Data Sciences and Operations (DSO)**</span> of the **University of Southern California (USC)**, Marshall School of Business. At USC, I am working with Professor [Matteo Sesia](https://msesia.github.io/) on **Conformal Inference** and **Deep Learning**.
 
 Before joining USC Marshall, I completed my Master's degree in Statistics at the University of Chicago and my Bachelor's degree in Statistics with Finance at the London School of Economics (LSE). 
 
