@@ -20,7 +20,7 @@ nav_order: 4
 <ul>
 	<li>
 		<strong>Stance Drift: How AI Middlemen Change What We Mean</strong><br>
-		Lingchong Liu, Yanfei Zhou, Deqing Fu, Jacob Bien, Rachel Wang, Matteo Sesia, Lucy Xia, Xin Tong.<br>
+		Lingchong Liu, Yanfei Zhou, Deqing Fu, Jacob Bien, Rachel Wang, Lucy Xia, Xin Tong.<br>
 		Preprint (arXiv coming soon)
 	</li>
 	<li style="margin-top: 0.75rem;">
