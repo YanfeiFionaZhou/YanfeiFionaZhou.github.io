@@ -23,12 +23,10 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
-I am **Yanfei Zhou** (周砚菲), a final-year Ph.D. Candidate in Statistics at the <span style="color:#990000;">**Department of Data Sciences and Operations (DSO)**</span> of the **University of Southern California (USC)**, Marshall School of Business. At USC, I am working with Professor [Matteo Sesia](https://msesia.github.io/) on **Conformal Inference** and **Deep Learning**.
+I am **Yanfei Zhou** (周砚菲), a final-year Ph.D. Candidate (expected graduation May, 2026) in Statistics at the <span style="color:#990000;">**Department of Data Sciences and Operations (DSO)**</span> of the **University of Southern California (USC)**, Marshall School of Business. At USC, I am working with Professor [Matteo Sesia](https://msesia.github.io/) on **Conformal Inference** and **Deep Learning**.
 
 Welcome to my website.
 
 Before joining USC Marshall, I completed my Master's degree in Statistics at the University of Chicago and my Bachelor's degree in Statistics with Finance at the London School of Economics (LSE). 
 
 My current research focuses on **Uncertainty Quantification (UQ)** for machine learning and deep learning model predictions. Specifically, we approach this via conformal prediction, a framework that converts point predictions into reliable and informative prediction sets or intervals. Centered on conformal prediction, our research develops new methods that improve the model training process and address various issues such as fairness and data privacy. These methods can be applied to a variety of application domains such as robot motion planning, financial stock forecasting, or image recognitions. Additionally, I have begun working on large language models, focusing on uncertainty-aware model evaluation.
-
-I am a final-year Ph.D. candidate (expected graduation May, 2026).

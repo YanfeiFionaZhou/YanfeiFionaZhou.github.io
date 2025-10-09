@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Received the Marshall PhD Fellowship (three awardees per department per year).
+Received the **Marshall PhD Fellowship** (three awardees per department per year).
