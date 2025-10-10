@@ -441,16 +441,17 @@ a:not(.navbar-brand):not(.nav-link):hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* General links (not publication links) */
-a:not(.navbar-brand):not(.nav-link):not(.publication-link) {
+/* General links (not publication links or buttons) */
+a:not(.navbar-brand):not(.nav-link):not(.publication-link):not(.btn) {
   color: var(--global-theme-color) !important;
   padding: 1px 4px;
   margin: -1px -4px;
 }
 
-a:not(.navbar-brand):not(.nav-link):not(.publication-link):hover {
+a:not(.navbar-brand):not(.nav-link):not(.publication-link):not(.btn):hover {
   background-color: rgba(0, 119, 200, 0.1);
-  color: #0077c8 !important;
+  /* keep the intended color coming from context (e.g., themed or brand-specific) */
+  color: inherit;
 }
 
 /* Button hover effects - ensure all buttons get upward movement */
@@ -1021,8 +1022,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+  // .preview styles are applied via image includes
 
       .abbr {
         margin-bottom: 0.5rem;

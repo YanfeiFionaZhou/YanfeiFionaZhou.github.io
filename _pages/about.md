@@ -12,7 +12,7 @@ profile:
     <div style="text-align: center;">
       <p style="font-size: 1.5em; display: flex; gap: 20px; justify-content: center; align-items: center;">
       <a href="mailto:yanfeizh@usc.edu" title="Email" style="margin-left: -10px; margin-right: -8px;"><i class="fa-solid fa-envelope" style="font-size: 1.0em;"></i></a>
-      <a href="/assets/pdf/curriculum_vitae_yanfei.pdf" target="_blank" title="CV" style="margin-left: -10px; margin-right: -8px; margin-top: 1px; font-size: 1.1em;">CV</a>
+      <a href="/assets/pdf/curriculum_vitae_yanfei_2025.pdf" target="_blank" title="CV" style="margin-left: -10px; margin-right: -8px; margin-top: 1px; font-size: 1.1em;">CV</a>
       <a href="https://scholar.google.com/citations?user=YJ5oVF4AAAAJ&hl=en" target="_blank" title="Google Scholar" style="margin-left: -10px; margin-right: -8px;"><img src="/assets/img/Google_Scholar_logo.svg" alt="Google Scholar" style="width: 28px; height: 28px; vertical-align: text-bottom; margin-top: -2px;"></a>
       <a href="https://github.com/FionaZ3696" target="_blank" title="GitHub" style="margin-left: -6px; margin-right: -12px;"><img src="/assets/img/github-mark.png" alt="GitHub" style="width: 28px; height: 28px; vertical-align: text-bottom; margin-top: -1px;"></a>
       <a href="https://www.linkedin.com/in/yanfei-zhou-25547a11a/" target="_blank" title="LinkedIn" style="margin-left: -10px; margin-top: 2px;"><i class="fa-brands fa-linkedin" style="font-size: 1.1em;"></i></a>
