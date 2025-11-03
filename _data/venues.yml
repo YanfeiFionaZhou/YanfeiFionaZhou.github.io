@@ -4,3 +4,15 @@
 
 "AI Driven Simulation":
   color: "#009f36"
+
+"NeurIPS":
+  url: https://neurips.cc
+  color: "#2ea44f" # green
+
+"ICML":
+  url: https://icml.cc
+  color: "#1f6feb" # blue
+
+"arXiv":
+  url: https://arxiv.org
+  color: "#B31B1B" # red

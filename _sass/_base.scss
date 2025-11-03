@@ -474,6 +474,8 @@ a:not(.navbar-brand):not(.nav-link):not(.publication-link):not(.btn):hover {
   transform: translateY(-1px);
   text-decoration: none !important;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* preserve current text color unless a more specific rule (e.g., .paper-link:hover) sets it */
+  color: inherit;
 }
 
 .paper-link:hover {
@@ -489,6 +491,11 @@ a:not(.navbar-brand):not(.nav-link):not(.publication-link):not(.btn):hover {
 .hf-link:hover {
   background-color: rgba(255, 140, 0, 0.1);
   color: #ff8c00 !important;
+}
+
+.poster-link:hover {
+  background-color: rgba(40, 167, 69, 0.1); /* soft green */
+  color: #28a745 !important;
 }
 
 /* Social media icons with original brand colors */
@@ -1029,14 +1036,18 @@ footer.sticky-bottom {
 
         abbr {
           display: inline-block;
-          background-color: var(--global-theme-color);
+          /* Background comes from venues.yml via inline style on <abbr> */
           margin-bottom: 0.5rem;
 
           a {
-            color: white;
+            /* Ensure venue code text is readable on colored badge */
+            color: #ffffff;
 
             &:hover {
               text-decoration: none;
+              /* Prevent global hover highlight from affecting venue badges */
+              background-color: transparent !important;
+              color: #ffffff;
             }
           }
         }

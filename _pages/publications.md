@@ -26,7 +26,7 @@ nav_order: 4
 	<li style="margin-top: 0.75rem;">
 		<strong>Conformal Inference for Open-Set and Imbalanced Classification</strong><br>
 		Tianmin Xie, Yanfei Zhou, Ziyi Liang, Stefano Favaro, Matteo Sesia.<br>
-		Preprint (arXiv coming soon)
+		Preprint (<a href="https://arxiv.org/abs/2510.13037">arXiv:2510.13037</a>)
 	</li>
 	<li style="margin-top: 0.75rem;">
 		<strong>Conformal Classification with Improved Conditional Coverage via Post Calibration</strong><br>

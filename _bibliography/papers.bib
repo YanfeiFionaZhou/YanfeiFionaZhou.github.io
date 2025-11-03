@@ -66,3 +66,15 @@
   img={publication_preview/ConformalTraining.png},
   img_caption={Two example test images from the preprocessed CIFAR-10 data set, with their top two estimated class probabilities computed by the output softmax layer of convolutional neural networks trained to minimize different loss functions. Left: intact image of a ship. Right: corrupted image of a dog. Models trained with our loss (Conformal) are less overconfident on the blurred image while maintaining confidence comparable to other losses on the intact image.}
 }
+
+@inproceedings{xie2025conformal,
+  title={Conformal Inference for Open-Set and Imbalanced Classification},
+  author={Xie, Tianmin and Zhou, Yanfei and Liang, Ziyi and Favaro, Stefano and Sesia, Matteo},
+  abstract={This paper presents a conformal prediction method for classification in highly imbalanced and open-set settings, where there are many possible classes and not all may be represented in the data. Existing approaches require a finite, known label space and typically involve random sample splitting, which works well when there is a sufficient number of observations from each class. Consequently, they have two limitations: (i) they fail to provide adequate coverage when encountering new labels at test time, and (ii) they may become overly conservative when predicting previously seen labels. To obtain valid prediction sets in the presence of unseen labels, we compute and integrate into our predictions a new family of conformal p-values that can test whether a new data point belongs to a previously unseen class. We study these p-values theoretically, establishing their optimality, and uncover an intriguing connection with the classical Good--Turing estimator for the probability of observing a new species. To make more efficient use of imbalanced data, we also develop a selective sample splitting algorithm that partitions training and calibration data based on label frequency, leading to more informative predictions. Despite breaking exchangeability, this allows maintaining finite-sample guarantees through suitable re-weighting. With both simulated and real data, we demonstrate our method leads to prediction sets with valid coverage even in challenging open-set scenarios with infinite numbers of possible labels, and produces more informative predictions under extreme class imbalance.},
+  year={2025},
+  selected={true},
+  abbr={arXiv},
+  arxiv={2510.13037},
+  booktitle={arXiv preprint},
+  url={https://arxiv.org/abs/2510.13037},
+}
